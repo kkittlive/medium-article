@@ -1,0 +1,105 @@
+body {
+  margin: 0px;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  color: grey;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random);
+  background-size: cover;
+  padding: 120px 0px;
+}
+
+.container {
+  margin: 50px auto;
+  max-width: 700px;
+  text-align: left;
+}
+
+h1 {
+  font-family: "Poppins 700", sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.01em;
+  color: white;
+  opacity: 90%
+}
+
+h2 {
+  font-family: Alice, serif;
+  font-size: 30px;
+  line-height: 1.5;
+  color: white;
+  opacity: 90%;
+}
+
+h3 {
+  font-family: Verdana, serif;
+  font-weight: lighter;
+  color: lightgrey;
+  letter-spacing: 0.02em;
+  font-size: 30px;
+}
+
+a {
+  background-color: darkseagreen;
+  font-family: Alice, serif;
+  font-size: 25px;
+  color: grey;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+a:hover {
+background-color: mediumspringgreen;
+}
+
+@media(max-width: 992px) {
+  .container {
+    margin: 50px auto;
+    max-width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    margin: 50px auto;
+    max-width: 500px;
+  }
+}
+
+@media(max-width: 576px) {
+  .banner {
+  padding: 50px 0px;
+  }
+
+  .container {
+    margin: 10px 50px;
+  }
+
+  h1 {
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: white;
+  opacity: 90%
+  }
+
+  h2 {
+  font-size: 14px;
+  line-height: 1.5;
+  color: white;
+  opacity: 90%;
+  }
+
+  h3 {
+  font-size: 14px;
+  }
+
+  a {
+  font-size: 14px;
+  }
+
+  p{
+    font-size: 16px;
+  }
+}
